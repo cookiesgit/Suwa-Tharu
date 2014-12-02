@@ -25,3 +25,23 @@ a:hover{
     background-color: #f2f2f2;
     height: 200px;
 }
+
+.icon-social-fb:before{
+   content: url(../img/fb1.png);
+   
+}
+.icon-social-fb:hover{
+    content: url(../img/fb2.png);
+}
+.icon-social-gPlus:before{
+    content: url(../img/g.png);
+}
+.icon-social-gPlus:hover{
+    content: url(../img/g2.png);
+}
+.icon-social-twit:before{
+    content: url(../img/twit1.png);
+}
+.icon-social-twit:hover{
+    content: url(../img/twit2.png);
+}
