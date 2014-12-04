@@ -6,12 +6,10 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Welcome to Suwa Tharu</title>
+        <title>Contact | Suwatharu Ayurweda</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css"/>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default" role="navigation">
@@ -26,10 +24,9 @@ and open the template in the editor.
                     </button>
                     <a class="navbar-brand" href="#">Suwa Tharu Ayurweda</a>
                 </div>
-
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
+                        <li>
                             <a href="#">
                                 <span id="navbar-span" class="glyphicon glyphicon-adjust"></span>
                                 Services of Suwa Tharu Ayurweda
@@ -41,8 +38,8 @@ and open the template in the editor.
                                 About Suwa Tharu Ayurweda
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="nav-active">
+                            <a id="nav-active" href="#">
                                 <span id="navbar-span" class="glyphicon glyphicon-adjust"></span>
                                 Contact Us
                             </a>
@@ -51,5 +48,40 @@ and open the template in the editor.
                 </div>
             </div>
         </nav>
+
+        <div class="container-fluid">
+            <div class="row" style="background-color: #e7e7e7;">
+                <center><h1>CONTACT US</h1></center>
+            </div>
+            <div class="row">
+                <center>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li class="active">Data</li>
+                    </ol>
+                </center>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8" id="gmap_canvas" style="height: 350px; max-width: 95%;">
+                    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+                    <script type="text/javascript"> function init_map() {
+                            var myOptions = {zoom: 14, center: new google.maps.LatLng(6.059952, 80.732618), mapTypeId: google.maps.MapTypeId.ROADMAP};
+                            map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+                            marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(6.059952, 80.732618)});
+                            infowindow = new google.maps.InfoWindow({content: "<b>Wijesekara Construction Pvt Ltd</b></br>#306/4, Kahawatta<br/>82400, Beliatta<br/>Tel/Fax:+94 47 2243551<br/>Hunting: +94 71 4298779"});
+                            google.maps.event.addListener(marker, "click", function() {
+                                infowindow.open(map, marker);
+                            });
+                            infowindow.open(map, marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+                    </script>
+                </div>
+            </div>
+        </div>
+
+
     </body>
 </html>
