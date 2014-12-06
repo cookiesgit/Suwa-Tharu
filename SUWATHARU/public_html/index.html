@@ -10,6 +10,16 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            function hover(element, value) {
+                element.setAttribute('src', 'img/footer-icons/' + value);
+            }
+            function unhover(element, value) {
+                element.setAttribute('src', 'img/footer-icons/' + value);
+            }
+        </script>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
     </head>
@@ -52,4 +62,95 @@ and open the template in the editor.
             </div>
         </nav>
     </body>
+
+
+    <footer class="footer-background">
+        <div class="container-fluid clearfix">
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            &nbsp;
+                        </div>
+                        <div class="row">
+                            &nbsp;
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <a class="footer-title" href="#">About</a>
+                                        </li>
+                                        <b class="footer-title"> | </b>
+                                        <li>
+                                            <a href="#" class="footer-title">Terms of Use</a>
+                                        </li>
+                                        <b class="footer-title"> | </b>
+                                        <li>
+                                            <a href="#" class="footer-title">Privacy Policy</a>
+                                        </li>
+                                        <b class="footer-title"> | </b>
+                                        <li>
+                                            <a href="#" class="footer-title">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <span class="copyright footer-title">Copyright &copy; Suwatharu</span>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            &nbsp;
+                        </div>
+                        <div class="row">
+                            <center>
+                                <!-- Set Links to Sites-->
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="#">
+                                            <img id="icon-1" src="img/footer-icons/fb1.png" onmouseover="hover(this, 'fb2.png')" onmouseout="unhover(this, 'fb1.png')"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img id="icon-1" src="img/footer-icons/g.png" onmouseover="hover(this, 'g2.png')" onmouseout="unhover(this, 'g.png')"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img id="icon-1" src="img/footer-icons/twit1.png" onmouseover="hover(this, 'twit2.png')" onmouseout="unhover(this, 'twit1.png')"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </center>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            &nbsp;
+                        </div>
+                        <div class="row">
+                            &nbsp;
+                        </div>
+                        <div class="row">
+                            &nbsp;
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>
