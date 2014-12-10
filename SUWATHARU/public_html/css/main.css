@@ -21,6 +21,10 @@ and open the template in the editor.
     color: #ED786A;
 }
 .service-para-font{
+
     font-size: 12.5px;
     font-weight: normal;
+}
+.service-font-heading{
+    color: #5E5E62;
 }
