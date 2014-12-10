@@ -9,21 +9,19 @@ and open the template in the editor.
 */
 
 .footer-title{
-    color: #009900;
+    color: #5E5E62;
     font-size: 18px;
     font-weight: normal;
-    font-family: 'Calibri';
 }
 
 .footer-break{
     color: #5E5E62;
     font-size: 18px;
     font-weight: normal;
-    font-family: 'Calibri';
 }
 
 #foot-link:hover{
-    color: #5E5E62;
+    color: #009900;
     font-size: 18px;
     font-weight: normal;
     text-decoration: none;
@@ -32,4 +30,11 @@ and open the template in the editor.
 .footer-background{
     background-color: #E9E9E9;
     height: 200px;
+}
+
+#copyright-title{
+    color: #009900;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Calibri';
 }
