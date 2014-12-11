@@ -3963,27 +3963,26 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     color: #777;
 }
 .navbar-default .navbar-nav > li > a {
+    outline: none;
     color: #777;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus{
+.navbar-default .navbar-nav > li > a:hover{
     color: #ffffff;
     background-color: #009900;
+    font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a:hover #navbar-span{
     color: #ffffff;
 }
 
-.nav-active{
-    background-color: #009900;
-}
-
 #nav-active{
+    background-color: #009900;
     color: #ffffff;
+    outline: none;
 }
 
-.nav-active > a > #navbar-span{
+#nav-active > span{
     color: #ffffff;
 }
 

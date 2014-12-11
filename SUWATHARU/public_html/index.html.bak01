@@ -30,13 +30,6 @@ and open the template in the editor.
         <script type="text/javascript" src="engine1//jquery.js"></script>
         <!-- End WOWSlider.com HEAD section -->
 
-
-
-        <!-- Start WOWSlider.com HEAD section -->
-        <link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
-        <script type="text/javascript" src="engine1//jquery.js"></script>
-        <!-- End WOWSlider.com HEAD section -->
-
     </head>
     <body>
         <nav class="navbar navbar-default" role="navigation">
@@ -78,30 +71,10 @@ and open the template in the editor.
         </nav>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8">
-                    <div id="wowslider-container1">
-                        <div class="ws_images"><ul>
-                                <li><img src="data1/images/0ih24vu5.jpg" alt="0ih24vu5" title="0ih24vu5" id="wows1_0"/></li>
-                                <li><img src="data1/images/031_alberi.jpg" alt="031 Alberi" title="031 Alberi" id="wows1_1"/></li>
-                                <li><img src="data1/images/078.jpg" alt="078" title="078" id="wows1_2"/></li>
-                                <li><img src="data1/images/085.jpg" alt="085" title="085" id="wows1_3"/></li>
-                                <li><img src="data1/images/126.jpg" alt="126" title="126" id="wows1_4"/></li>
-                                <li><img src="data1/images/221.jpg" alt="221" title="221" id="wows1_5"/></li>
-                            </ul></div>
-                        <div class="ws_bullets"><div>
-                                <a href="#" title="0ih24vu5"><img src="data1/tooltips/0ih24vu5.jpg" alt="0ih24vu5"/>1</a>
-                                <a href="#" title="031 Alberi"><img src="data1/tooltips/031_alberi.jpg" alt="031 Alberi"/>2</a>
-                                <a href="#" title="078"><img src="data1/tooltips/078.jpg" alt="078"/>3</a>
-                                <a href="#" title="085"><img src="data1/tooltips/085.jpg" alt="085"/>4</a>
-                                <a href="#" title="126"><img src="data1/tooltips/126.jpg" alt="126"/>5</a>
-                                <a href="#" title="221"><img src="data1/tooltips/221.jpg" alt="221"/>6</a>
-                            </div></div>
-                        <span class="wsl"><a href="http://wowslider.com">Java Slider</a> by WOWSlider.com v4.6</span>
-                        <a href="#" class="ws_frame"></a>
-                        <div class="ws_shadow"></div>
-                    </div>
-                    <script type="text/javascript" src="engine1//wowslider.js"></script>
-                    <script type="text/javascript" src="engine1//script.js"></script>
+                <div class="col-md-10 col-md-offset-1">
+
+
+
                 </div>
             </div>
         </div>
