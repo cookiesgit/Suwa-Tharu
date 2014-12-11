@@ -9,19 +9,34 @@ and open the template in the editor.
 */
 
 .footer-title{
-    color: #b9b9b9;
+    color: #5E5E62;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer-break{
+    color: #5E5E62;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#foot-link:hover{
+    color: #009900;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer-background{
+    background-color: #E9E9E9;
+    height: 200px;
+}
+
+#copyright-title{
+    color: #009900;
     font-size: 18px;
     font-weight: normal;
     font-family: 'Calibri';
 }
 
-a:hover{
-    color: #99ff99;
-    font-size: 18px;
-    font-weight: normal;
-    text-decoration: none;
-}
-.footer-background{
-    background-color: #f2f2f2;
-    height: 200px;
-}
+dd {margin-left:40px}
